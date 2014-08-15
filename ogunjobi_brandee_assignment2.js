@@ -4,12 +4,12 @@
 //SDI Term 1408
 // Project 2
 
-// Start - 
+////// Start - 
 	alert("Hello!");
 	
- //prompt
+ //////prompt
  var name = prompt ("Are you ready for the story?", " ");
-//Procedure - Return Value
+//////Procedure - Return Value
 var getGreetingByName = function(name) {
 	var currentHour = (new Date()).getHours(),
 		timeOfDay, greeting;
@@ -30,7 +30,7 @@ console.log("we are continuing where we had left off.");
 
 
 
-// Confirm - Variables
+////// Confirm - Variables
 var q = "What is 10+10?"
 var a = 20;
 var c = "<h2>Great job!</h2>"
@@ -45,7 +45,7 @@ document.write(o);
 
 
     
-// Number Function
+////// Number Function
 var cupSales = " cups of Lemonade"
 var ice = myFunction(3*5);
 	console.log("They were so happy to exceed their goal selling over " + ice  + cupSales + ".");
@@ -53,7 +53,7 @@ var ice = myFunction(3*5);
 		return 3 * 5;
 }
 
-// String Function
+////// String Function
 var cream = "Ice Cream"
 	alert:console.log("Don't worry, we will have the " + cream + " party soon!");
 var whatTime = "Five O'Clock"
@@ -62,7 +62,7 @@ if (whatTime == "Five O'clock")
 	console.log("whatTime is Five O'Clock");
 }
 
-// Boolean Function
+////// Boolean Function
 
 var ll = 15;
 var yy = 25;
@@ -88,7 +88,7 @@ if ((l && y) || w) {
         console.log("The expression is false");
     }
 	
-// Return Value
+////// Return Value
 
 var number1 = 3;
 function times(number1)
@@ -107,7 +107,7 @@ var reward = "Yummy Yummy Ice Cream"
 feedBoys("The Boys", "Yummy Yum Ice Cream");
 console.log("I already gave the little " + boysName + " some " + reward);
 
-// variables
+////// variables
 var cream = "Ice Cream";
 var myBoy = "Johnny";
 var myBrother = "Tyelerr"
@@ -130,7 +130,7 @@ console.log('Don\'t you just love ' + cream + "?");
 console.log('My favorite ' + cream + " is vanilla!");
 console.log(myBrother + " says the party is at " + whatTime + " and " + myBoy + ' shouts "hooray"!');
 
-//Boolean Function
+//////Boolean Function
 var appleStreet = false;
 var beanStreet = false;
 var javaStreet = true;
@@ -141,7 +141,7 @@ if ((!appleStreet && !beanStreet) || javaStreet) {
         console.log("The expression is false");
     }
     console.log("You made it to JavaStreet Ice Cream Shop!");
- //Local Variables   
+ //////Local Variables   
 function myFunction() 
 {
 	var choco = "Chocolate Ice Cream";
@@ -149,11 +149,13 @@ function myFunction()
 	if (choco != vanilla) {
 			var straw = "Strawberry";
 		} else {
-			var mint = "Mint Chocolate Chip"
-			}
+			var mint = "Mint Chocolate Chip";
+			console.log(mint); }
 }
+var mint = "Mint Chocolate Chip";
+console.log(mint);
 
-// While Loop 
+////// While Loop 
 
  var scoops = 0;
 console.log("Starting Loop" + "<br />");
@@ -257,9 +259,57 @@ say("I hope this works!");
 
 ////// Local Variables
 
-////// String Concatenation 
+var name = "So, we are getting ready for the next contest!";
 
+function showName () {
+	var name = "Ogunjobi"; 
+	console.log (name);
+}
+console.log (name); 
+
+////// String Concatenation 
+var myBoy = "Johnny"
+var myBrother = "Tyelerr" 
+var timePlay = "I wonder if "
+var willBe = " will be up for the challenge!"
+
+console.log(timePlay + myBoy + " and " + myBrother + willBe);
 ////// Return String
+
+var greet = function( person, greeting ) {
+var text = greeting + ", " + person;
+return text;
+};
+console.log( greet( "What should it be? ", " A new contest" ) ); // "Hello, Rebec
+
+
+
+////// 
+var myFn = function( fn ) {
+var result = fn();
+console.log( result );
+};
+
+myFn( function() {
+return "Almost Done!";
+});
+
+//////
+
+var myFn = function( fn ) {
+var result = fn();
+console.log( result );
+};
+var myOtherFn = function() {
+return "Tried My Best!";
+};
+myFn( myOtherFn );
+
+var output = "This was a wonderful experience!";
+var learnJava = "I hope to practice Jave every day!";
+
+console.log(output);
+console.log(learnJava + " Good Night!"); 
 
 
 
