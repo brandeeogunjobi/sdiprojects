@@ -2,7 +2,7 @@
 
 // Brandee Ogunjobi
 //SDI Term 1408
-// Project 2
+// Project 
 
 ////// Start - 
 	alert("Hello!");
