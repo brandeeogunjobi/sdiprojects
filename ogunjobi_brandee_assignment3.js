@@ -272,8 +272,7 @@ var willBe = " will be up for the challenge!"
 
 console.log(timePlay + myBoy + " and " + myBrother + willBe);
 
-// Return String
-
+//Return String
 var greet = function( person, greeting ) {
 var text = greeting + ", " + person;
 return text;
@@ -305,6 +304,57 @@ var gameTime = function(whatGame) {
 for (var gameNumber = 0; gameNumber < contestNames.length; gameNumber++) {
     gameTime(gameNumber);
 };
+
+
+//Function - //Nested Loop //Array Methord
+function seeDream(){
+	for(var i=0;i<iceCream.length;i++){
+		var dreamIceCream=[];
+		var eatIceCream=iceCream[i];
+		var decoration=" ";
+		var blank=" "
+		for(var j=0;j<decorate.length;j++){ //Nested Loop
+			 decoration=decoration+decorate[j]+blank; 	
+		  
+		}
+		blank=" "
+		var cone=eatIceCream +" with "+decoration
+		dreamIceCream.push(cone); //Array Method
+		console.log("He is in dream: eating  "+dreamIceCream.toString()+"</br>"); //array method
+	}	
+
+}
+
+seeDream();
+
+//JSON
+var json2 = {
+    "Contestants" : [
+        {
+        "vvid" : "0123456",
+        "name" : "Johnny",
+        "age": 21
+        },
+        {
+        "vvid" : "0123457",
+        "name" : "Tyelerr",
+        "age": 42
+        },
+        {
+        "vvid" : "0123458",
+        "name" : "Avery",
+        "age": 22
+        }
+    ]
+};
+
+var handleData = function (json) {
+    console.log(json2);
+};
+
+handleData(json2);
+
+
 
 
 
