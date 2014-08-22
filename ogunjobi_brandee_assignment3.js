@@ -218,12 +218,18 @@ console.log(15 - 5);
 console.log(2 * 5);     
 console.log(1 / 10);
 
-// For Loop
-for (var iceCream = 0, limit = 10; iceCream < limit; iceCream++) {
-    
-    console.log('Currently at ' + iceCream);
-    
+// Function For Loop //Argument Array, //Array Method
+	
+function currentAt(iceCreamArray){
+
+	for (var i = 0; i < iceCreamArray.length; i++) {  
+		
+		console.log('Currently at ' + iceCreamArray[i]);
+		
+	}
 }
+var iceCreamArray =[1,2,3,4,5,6,7,8,9,10];
+currentAt(iceCreamArray); //Function with Argument Array
 
 // Return Number - //Return Value - Output
 
@@ -275,27 +281,7 @@ var greet = function( person, greeting ) {
 var text = greeting + ", " + person;
 return text;
 };
-console.log( greet( "What should it be? ", " A new contest" ) ); // "Hello, Rebec
-
-// Function 
-var myFn = function( fn ) {
-var result = fn();
-console.log( result );
-};
-
-myFn( function() {
-return "Almost Done!";
-});
-
-// Function
-var myFn = function( fn ) {
-var result = fn();
-console.log( result );
-};
-var myOtherFn = function() {
-return "Tried My Best!";
-};
-myFn( myOtherFn );
+console.log( greet( "What should it be? ", " A new contest" ) ); 
 
 //Return Array
 var contestNames = ["Face Painting",
@@ -322,6 +308,12 @@ var gameTime = function(whatGame) {
 for (var gameNumber = 0; gameNumber < contestNames.length; gameNumber++) {
     gameTime(gameNumber);
 };
+
+
+
+
+
+
 
 
 
