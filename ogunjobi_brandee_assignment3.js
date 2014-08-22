@@ -43,7 +43,7 @@ var o = (response == a) ? c : ic;
 document.write("<BR/>");
 document.write(o);
 
-//Number Function
+//Return Number - //Function -
 var cupSales = " cups of Lemonade"
 var ice = myFunction(3*5);
 	console.log("They were so happy to exceed their goal selling over " + ice  + cupSales + ".");
@@ -90,8 +90,7 @@ if (istrue) {
         console.log("The expression is false");
     }
 	
-////// Return Value
-
+// Return Value
 var number1 = 3;
 function times(number1)
 {
@@ -109,7 +108,7 @@ var reward = "Yummy Yummy Ice Cream"
 feedBoys("The Boys", "Yummy Yum Ice Cream");
 console.log("I already gave the little " + boysName + " some " + reward);
 
-////// variables
+// Global variables
 var cream = "Ice Cream";
 var myBoy = "Johnny";
 var myBrother = "Tyelerr"
@@ -119,20 +118,18 @@ var stringA = "If it is hot outside,"
 var stringB = "the boys will sell "
 var question ="Did the boys make there sales quota?"
 
-
-
+//Procedure
 s=prompt('Do you have a favorite ice cream?','Chocolate Chip');
   alert('If you like ice cream join the story!');
 
-
-
+//Output
 console.log(myBoy +  " is waiting for his " + cream + ".");
 console.log(myBoy + " and " + myBrother + " you both " +  lemonadeSales + "!" + " Are you ready for your party?");
 console.log('Don\'t you just love ' + cream + "?");
 console.log('My favorite ' + cream + " is vanilla!");
 console.log(myBrother + " says the party is at " + whatTime + " and " + myBoy + ' shouts "hooray"!');
 
-//////Boolean Function
+//Return Boolean
 var appleStreet = false;
 var beanStreet = false;
 var javaStreet = true;
@@ -143,7 +140,8 @@ if ((!appleStreet && !beanStreet) || javaStreet) {
         console.log("The expression is false");
     }
     console.log("You made it to JavaStreet Ice Cream Shop!");
- //////Local Variables   
+    
+//Local Variables    - // Function
 function myFunction() 
 {
 	var choco = "Chocolate Ice Cream";
@@ -157,7 +155,7 @@ function myFunction()
 var mint = "Mint Chocolate Chip";
 console.log(mint);
 
-////// While Loop 
+//While Loop 
 
  var scoops = 0;
 console.log("Starting Loop" + "<br />");
@@ -168,7 +166,7 @@ while (scoops < 10){
 console.log("Scoops Complete!");
 console.log("Hope your enjoying that heaping ice cream sunday!");
 
-// return boolean
+//Return Boolean
 
 var avocadoIce = false;
 var chileIce = false;
@@ -181,9 +179,7 @@ if ((!avocadoIce && !chileIce) || chocoice) {
     }
  {
 }
-// Comparison and Outputs
-
-
+// Function - //Nested Condition
 var numberOfScoops = prompt("How many scoops did you eat?")
 
 if(numberOfScoops===10)
@@ -200,18 +196,14 @@ else if(numberOfScoops>10)
     console.log("I am the champion!")
 }
 
-
-
-///// Number Function
+// Number Function
 var bellyAche = " Oh, I feel sick!"
 var iceCream = myFunction(3*5);
 	console.log("They were feeling sick Johnny ate " + iceCream  + " scoops and said, " + bellyAche);
 	function myFunction(x, t) {
 		return 2 * 5;
-
-
-	
 }
+
 // Local Variable
 var name = "Johnny";
 
@@ -220,7 +212,7 @@ if (name) {
 	console.log (name + " Go to bed and rest!");
 }
 
-// Number
+// Math - Output
 
 console.log(15 - 5);   
 console.log(2 * 5);     
@@ -233,7 +225,7 @@ for (var iceCream = 0, limit = 10; iceCream < limit; iceCream++) {
     
 }
 
-// Return Number - Return Number - Math - Output
+// Return Number - //Return Value - Output
 
 var lemonadeMoney = function(useCash) {
 	var pricePerScoop = 3,
@@ -251,7 +243,7 @@ console.log("Thanks for buying " + gotScoops + " scoops of Ice Cream!");
 
 
 
-///// String Function - String -String
+// String Function - 
 
 var sdiProject = "Making ice cream in code has been awesome.";
 
@@ -259,7 +251,7 @@ console.log(sdiProject);
 var say = function(message) {console.log(message); };
 say("I hope this works!");
 
-////// Local Variables
+// Local Variables
 
 var name = "So, we are getting ready for the next contest!";
 
@@ -269,14 +261,15 @@ function showName () {
 }
 console.log (name); 
 
-////// String Concatenation 
+// String Concatenation - // Return String
 var myBoy = "Johnny"
 var myBrother = "Tyelerr" 
 var timePlay = "I wonder if "
 var willBe = " will be up for the challenge!"
 
 console.log(timePlay + myBoy + " and " + myBrother + willBe);
-////// Return String
+
+// Return String
 
 var greet = function( person, greeting ) {
 var text = greeting + ", " + person;
@@ -284,9 +277,7 @@ return text;
 };
 console.log( greet( "What should it be? ", " A new contest" ) ); // "Hello, Rebec
 
-
-
-////// 
+// Function 
 var myFn = function( fn ) {
 var result = fn();
 console.log( result );
@@ -296,8 +287,7 @@ myFn( function() {
 return "Almost Done!";
 });
 
-//////
-
+// Function
 var myFn = function( fn ) {
 var result = fn();
 console.log( result );
@@ -307,35 +297,30 @@ return "Tried My Best!";
 };
 myFn( myOtherFn );
 
-var output = "This was a wonderful experience!";
-var learnJava = "I hope to practice Jave every day!";
-
-console.log(output);
-console.log(learnJava + " Good Night!"); 
-
-var tankNames = ["Shark Tank",
-                 "Sting Ray Tank",
-                 "Dolphin Tank",
-                 "Fish Tank"],
-    minutesPerTank = [20, 15, 25, 30],
-    kidNames = ["Braden", "Rhys", "Zoe"];
+//Return Array
+var contestNames = ["Face Painting",
+                 "Dunk Apples",
+                 "Game Sorry",
+                 "Treasure Hunt"],
+    minutesPerGame = [20, 15, 25, 30],
+    kidNames = ["Johnny", "Tyelerr", "Avery"];
     
-var visitTank = function(whatTank) {
-    var tankName = tankNames[whatTank],
-        minutesThisTank = minutesPerTank[tankNumber];
-    console.log(kidNames[0] + " wanted us to visit the " + tankName +
-        " for " + minutesThisTank + " minutes. So I set the timer on" +
+var gameTime = function(whatGame) {
+    var gameName = contestNames[whatGame],
+        minutesThisGame = minutesPerGame[gameNumber];
+    console.log(kidNames[0] + " wanted us to visit the " + gameName +
+        " for " + minutesThisGame + " minutes. So I set the timer on" +
         " my watch!");
-    for (var minutes = 0; minutes < minutesThisTank; minutes += 5) {
-            var minutesRemain = minutesThisTank - minutes;
+    for (var minutes = 0; minutes < minutesThisGame; minutes += 5) {
+            var minutesRemain = minutesThisGame - minutes;
             console.log("We have " + minutesRemain + " minutes left. " +
                 minutes + " minutes have past.");
         };
-    console.log("We finished with the " + tankName + ".");
+    console.log("We finished with the " + gameName + ".");
 };
 
-for (var tankNumber = 0; tankNumber < tankNames.length; tankNumber++) {
-    visitTank(tankNumber);
+for (var gameNumber = 0; gameNumber < contestNames.length; gameNumber++) {
+    gameTime(gameNumber);
 };
 
 
