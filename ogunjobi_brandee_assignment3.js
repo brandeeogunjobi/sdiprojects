@@ -247,25 +247,22 @@ var lemonadeMoney = function(useCash) {
 var gotScoops = lemonadeMoney(30);
 console.log("Thanks for buying " + gotScoops + " scoops of Ice Cream!");
 
-
-
-// String Function - 
-
+//Return String - //Function
 var sdiProject = "Making ice cream in code has been awesome.";
 
 console.log(sdiProject);
 var say = function(message) {console.log(message); };
 say("I hope this works!");
 
-// Local Variables
-
-var name = "So, we are getting ready for the next contest!";
+// Global Variables
+var name = "So, we are getting ready for the next contest!"; //global varible
 
 function showName () {
-	var name = "Ogunjobi"; 
+	var name = "Ogunjobi"; ////// Local Variables(varibal within method)
 	console.log (name);
 }
-console.log (name); 
+showName(); //Print local variable
+console.log (name);  //Print global variable
 
 // String Concatenation - // Return String
 var myBoy = "Johnny"
